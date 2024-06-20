@@ -127,6 +127,7 @@ styles.innerHTML = `
 
     --ellipsis-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><circle cx="2" cy="2" r="2" fill="%232c2c2c" transform="translate(6 6)"/><circle cx="2" cy="2" r="2" fill="%232c2c2c" data-name="Ellipse 71" transform="translate(12 6)"/><circle cx="2" cy="2" r="2" fill="%232c2c2c" transform="translate(0 6)"/></svg>');
 
+    --consonant-merch-card-callout-background-color: #CBCBCB;
 }
 
 merch-card-collection {
@@ -235,6 +236,20 @@ merch-card [slot='heading-xl'] {
     line-height: var(--consonant-merch-card-heading-xl-line-height);
     margin: 0;
     color: var(--merch-color-grey-80);
+}
+
+merch-card [slot='body-xs'] .callout {
+    background: var(--consonant-merch-card-callout-background-color) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 0.5;
+    margin: 5px 2px;
+    padding: 0px 5px;
+    display: inline-flex;
+}
+
+merch-card [slot='body-xs'] .callout img {
+    margin: 1.5px 0px 0px 5px;
+    align-self: flex-start;
 }
 
 merch-card [slot='detail-m'] {
