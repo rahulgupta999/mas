@@ -238,7 +238,7 @@ merch-card [slot='heading-xl'] {
     color: var(--merch-color-grey-80);
 }
 
-merch-card [slot='body-xs'] .callout {
+merch-card .callout {
     background: var(--consonant-merch-card-callout-background-color) 0% 0% no-repeat padding-box;
     border-radius: 4px;
     opacity: 0.5;
@@ -247,7 +247,7 @@ merch-card [slot='body-xs'] .callout {
     display: inline-flex;
 }
 
-merch-card [slot='body-xs'] .callout img {
+merch-card .callout img {
     margin: 1.5px 0px 0px 5px;
     align-self: flex-start;
 }
