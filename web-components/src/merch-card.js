@@ -444,7 +444,9 @@ export class MerchCard extends LitElement {
             <div class="body">
                 <slot name="icons"></slot>
                 <slot name="heading-xs"></slot>
+                <slot name="body-xxs"></slot>
                 <slot name="promo-text"></slot>
+                <slot name="callout-text"></slot>
                 <slot name="body-xs"></slot>
             </div>
             ${this.secureLabelFooter}`;
@@ -462,6 +464,7 @@ export class MerchCard extends LitElement {
             <slot name="price-commitment"></slot>
             <slot name="offers"></slot>
             <slot name="promo-text"></slot>
+            <slot name="callout-text"></slot>
             ${this.miniCompareFooter}
             <slot name="footer-rows"><slot name="body-s"></slot></slot>`;
     }

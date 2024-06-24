@@ -252,6 +252,35 @@ merch-card .callout img {
     align-self: flex-start;
 }
 
+merch-card [slot='callout-text'] {
+    background: var(--consonant-merch-card-callout-background-color) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 0.5;
+    margin: 5px 2px;
+    padding: 0px 5px;
+    display: inline-flex;
+}
+
+merch-card [slot='callout-text'] img {
+    margin: 1.5px 0px 0px 5px;
+    align-self: flex-start;
+}
+
+merch-card [variant="mini-compare-chart"] [slot='callout-text'] {
+    background: var(--consonant-merch-card-callout-background-color) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 0.5;
+    margin: 5px 2px;
+    padding: 0px 5px;
+    display: inline-flex;
+    padding: var(--consonant-merch-spacing-xs) var(--consonant-merch-spacing-s);
+}
+
+merch-card [variant="mini-compare-chart"] [slot='callout-text'] img {
+    margin: 1.5px 0px 0px 5px;
+    align-self: flex-start;
+}
+
 merch-card [slot='detail-m'] {
     font-size: var(--consonant-merch-card-detail-m-font-size);
     letter-spacing: var(--consonant-merch-card-detail-m-letter-spacing);
