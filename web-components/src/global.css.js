@@ -238,20 +238,6 @@ merch-card [slot='heading-xl'] {
     color: var(--merch-color-grey-80);
 }
 
-merch-card .callout {
-    background: var(--consonant-merch-card-callout-background-color) 0% 0% no-repeat padding-box;
-    border-radius: 4px;
-    opacity: 0.5;
-    margin: 5px 2px;
-    padding: 0px 5px;
-    display: inline-flex;
-}
-
-merch-card .callout img {
-    margin: 1.5px 0px 0px 5px;
-    align-self: flex-start;
-}
-
 merch-card [slot='callout-text'] {
     background: var(--consonant-merch-card-callout-background-color) 0% 0% no-repeat padding-box;
     border-radius: 4px;
