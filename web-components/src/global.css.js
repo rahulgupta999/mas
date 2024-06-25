@@ -393,7 +393,6 @@ merch-card[variant="mini-compare-chart"] [is="inline-price"] {
     display: inline-block;
     min-height: 30px;
     min-width: 1px;
-    word-break: break-all;
 }
 
 merch-card[variant="mini-compare-chart"] span.placeholder-resolved[data-template="strikethrough"] {
@@ -501,6 +500,10 @@ merch-card[variant="mini-compare-chart"] .footer-row-cell-description a {
 
     merch-card[variant="mini-compare-chart"] span.placeholder-resolved[data-template="strikethrough"] {
         font-size: var(--consonant-merch-card-body-xs-font-size);
+    }
+
+    html[lang="he"] merch-card[variant="mini-compare-chart"] [is="inline-price"] .price-recurrence::before {
+        content: "\\200B";
     }
 
     merch-card[variant="mini-compare-chart"] [slot="price-commitment"] {
