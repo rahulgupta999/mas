@@ -252,14 +252,14 @@ merch-card [slot='callout-text'] img {
     align-self: flex-start;
 }
 
-merch-card [variant="mini-compare-chart"] [slot='callout-text'] p {
+merch-card[variant="mini-compare-chart"] [slot='callout-text'] {
+    padding: var(--consonant-merch-spacing-xs) var(--consonant-merch-spacing-s);
+}
+merch-card[variant="mini-compare-chart"] [slot='callout-text'] p {
     background: var(--consonant-merch-card-callout-background-color) 0% 0% no-repeat padding-box;
     border-radius: 4px;
     opacity: 0.5;
-    margin: 5px 2px;
-    padding: 0px 5px;
     display: inline-flex;
-    padding: var(--consonant-merch-spacing-xs) var(--consonant-merch-spacing-s);
 }
 
 merch-card [variant="mini-compare-chart"] [slot='callout-text'] img {
