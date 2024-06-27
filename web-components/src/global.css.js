@@ -238,10 +238,9 @@ merch-card [slot='heading-xl'] {
     color: var(--merch-color-grey-80);
 }
 
-merch-card [slot='callout-text'] p {
+merch-card [slot='callout-text'] {
     background: var(--consonant-merch-card-callout-background-color) 0% 0% no-repeat padding-box;
     border-radius: 4px;
-    opacity: 0.5;
     margin: 5px 2px;
     padding: 0px 5px;
     display: inline-flex;
@@ -258,7 +257,6 @@ merch-card[variant="mini-compare-chart"] [slot='callout-text'] {
 merch-card[variant="mini-compare-chart"] [slot='callout-text'] p {
     background: var(--consonant-merch-card-callout-background-color) 0% 0% no-repeat padding-box;
     border-radius: 4px;
-    opacity: 0.5;
     display: inline-flex;
 }
 
