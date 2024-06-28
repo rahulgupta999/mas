@@ -697,21 +697,25 @@
                 style="border: 1px solid rgb(45, 157, 120);">
                 <h3 id="merch-card-background-opacity-70-segment" class="card-heading" slot="heading-xs">Photoshop</h3>
                 <div slot="body-xs">
-                    <p>Save over 25% on 20+ apps, including Photoshop, Illustrator, and more. First year only. Ends 27 here is an
+                    <p>[Rohit] Save over 25% on 20+ apps, including Photoshop, Illustrator, and more. First year only. Ends 27 here is an
                         inline price <span is="inline-price" data-display-old-price="true" data-display-per-unit="false"
                             data-display-recurrence="true" data-display-tax="false" data-force-tax-exclusive="false"
                             data-quantity="1" data-template="price"
                             data-wcs-osi="abm"></span>
                     </p>
                     <div slot="callout-text">
-                        <p>AI Assistant add-on available <img src="./img/info-icon.svg"/></p>
-                        <p>
-                            <span>
-                                For a limited time pay <span is="inline-price" data-display-per-unit="false"
-                                data-display-recurrence="true" data-display-tax="false" data-wcs-osi="puf"></span> when you add AI assistant to Acrobat Reader, Standard, or Pro. Ends 6/4.
-                            </span
-                            ><img src="./img/info-icon.svg"/>
-                        </p>
+                        <div class="callout-content-wrapper">
+                            <div class="callout-content">AI Assistant add-on available </div>
+                            <img src="./img/info-icon.svg" title="this is a dummy tooltip text" class="callout-icon"/>
+                        </div>
+                    </div>
+                    <div slot="callout-text">
+                        <div class="callout-content-wrapper">
+                            <div class="callout-content">
+                                For a limited time pay
+                                <span is="inline-price" data-display-old-price="true" data-display-per-unit="false" data-quantity="1" data-template="price" data-wcs-osi="Mutn1LYoGojkrcMdCLO7LQlx1FyTHw27ETsfLv0h8DQ" class="placeholder-failed"></span> when you add AI assistant to Acrobat Reader, Standard, or Pro. Ends 6/4.<a href="https://www.adobe.com/creativecloud/all-apps.html" daa-ll="Learn More-1--H4 Subtext H5 Promo Text" target="_blank">Learn More</a> </div>
+                            <img src="./img/info-icon.svg" title="this is a dummy tooltip text" class="callout-icon"/>
+                        </div>
                     </div>
                     <p><a href="https://www.adobe.com/creativecloud.html#cc-see-whats-included" target="_blank">See what's
                             included</a> | <a href="https://www.adobe.com/creativecloud/all-apps.html" target="_blank">Learn
@@ -732,14 +736,18 @@
                             data-wcs-osi="abm"></span>
                     </p>
                     <div slot="callout-text">
-                        <p>AI Assistant add-on available <img src="./img/info-icon.svg"/></p>
-                        <p>
-                            <span>
-                                For a limited time pay <span is="inline-price" data-display-per-unit="false"
-                                data-display-recurrence="true" data-display-tax="false" data-wcs-osi="puf"></span> when you add AI assistant to Acrobat Reader, Standard, or Pro. Ends 6/4.
-                            </span
-                            ><img src="./img/info-icon.svg"/>
-                        </p>
+                        <div class="callout-content-wrapper">
+                            <div class="callout-content">AI Assistant add-on available </div>
+                            <img src="./img/info-icon.svg" title="this is a dummy tooltip text" class="callout-icon"/>
+                        </div>
+                    </div>
+                    <div slot="callout-text">
+                        <div class="callout-content-wrapper">
+                            <div class="callout-content">
+                                For a limited time pay
+                                <span is="inline-price" data-display-old-price="true" data-display-per-unit="false" data-quantity="1" data-template="price" data-wcs-osi="Mutn1LYoGojkrcMdCLO7LQlx1FyTHw27ETsfLv0h8DQ" class="placeholder-failed"></span> when you add AI assistant to Acrobat Reader, Standard, or Pro. Ends 6/4.<a href="https://www.adobe.com/creativecloud/all-apps.html" daa-ll="Learn More-1--H4 Subtext H5 Promo Text" target="_blank">Learn More</a> </div>
+                            <img src="./img/info-icon.svg" title="this is a dummy tooltip text" class="callout-icon"/>
+                        </div>
                     </div>
                     <p><a href="https://www.adobe.com/creativecloud.html#cc-see-whats-included" target="_blank">See what's
                             included</a> | <a href="https://www.adobe.com/creativecloud/all-apps.html" target="_blank">Learn
@@ -783,13 +791,20 @@
                         target="_blank">with a
                         link</a></p>
                     <div slot="callout-text">
-                        <p>AI Assistant add-on available <img src="./img/info-icon.svg"/></p>
+                        <p>[Tooltip Ex] AI Assistant add-on available <img src="./img/info-icon.svg"/></p>
                         <p>
                             <span>
                                 For a limited time pay <span is="inline-price" data-display-per-unit="false"
                                 data-display-recurrence="true" data-display-tax="false" data-wcs-osi="puf"></span> when you add AI assistant to Acrobat Reader, Standard, or Pro. Ends 6/4.
-                            </span
-                            ><img src="./img/info-icon.svg"/>
+                            </span>
+                            <overlay-trigger placement="top" offset="0">
+                                <div slot="trigger">
+                                    <img src="./img/info-icon.svg"/>
+                                </div>
+                                <sp-tooltip slot="hover-content" variant="accent" delayed>
+                                    This is a tooltip
+                                </sp-tooltip>
+                            </overlay-trigger>
                         </p>
                     </div>
                     <p><a href="https://www.adobe.com/creativecloud.html#cc-see-whats-included" target="_blank">See what's
@@ -811,14 +826,18 @@
                             data-wcs-osi="abm"></span>
                     </p>
                     <div slot="callout-text">
-                        <p>AI Assistant add-on available <img src="./img/info-icon.svg"/></p>
-                        <p>
-                            <span>
-                                For a limited time pay <span is="inline-price" data-display-per-unit="false"
-                                data-display-recurrence="true" data-display-tax="false" data-wcs-osi="puf"></span> when you add AI assistant to Acrobat Reader, Standard, or Pro. Ends 6/4.
-                            </span
-                            ><img src="./img/info-icon.svg"/>
-                        </p>
+                        <div class="callout-content-wrapper">
+                            <div class="callout-content">AI Assistant add-on available </div>
+                            <img src="./img/info-icon.svg" title="this is a dummy tooltip text" class="callout-icon"/>
+                        </div>
+                    </div>
+                    <div slot="callout-text">
+                        <div class="callout-content-wrapper">
+                            <div class="callout-content">
+                                For a limited time pay
+                                <span is="inline-price" data-display-old-price="true" data-display-per-unit="false" data-quantity="1" data-template="price" data-wcs-osi="Mutn1LYoGojkrcMdCLO7LQlx1FyTHw27ETsfLv0h8DQ" class="placeholder-failed"></span> when you add AI assistant to Acrobat Reader, Standard, or Pro. Ends 6/4.<a href="https://www.adobe.com/creativecloud/all-apps.html" daa-ll="Learn More-1--H4 Subtext H5 Promo Text" target="_blank">Learn More</a> </div>
+                            <img src="./img/info-icon.svg" title="this is a dummy tooltip text" class="callout-icon"/>
+                        </div>
                     </div>
                     <p><a href="https://www.adobe.com/creativecloud.html#cc-see-whats-included" target="_blank">See what's
                             included</a> | <a href="https://www.adobe.com/creativecloud/all-apps.html" target="_blank">Learn
@@ -852,14 +871,18 @@
                 </h3>
                 <div slot="body-xs">
                     <div slot="callout-text">
-                        <p>AI Assistant add-on available <img src="./img/info-icon.svg"/></p>
-                        <p>
-                            <span>
-                                For a limited time pay <span is="inline-price" data-display-per-unit="false"
-                                data-display-recurrence="true" data-display-tax="false" data-wcs-osi="puf"></span> when you add AI assistant to Acrobat Reader, Standard, or Pro. Ends 6/4.
-                            </span
-                            ><img src="./img/info-icon.svg"/>
-                        </p>
+                        <div class="callout-content-wrapper">
+                            <div class="callout-content">AI Assistant add-on available </div>
+                            <img src="./img/info-icon.svg" title="this is a dummy tooltip text" class="callout-icon"/>
+                        </div>
+                    </div>
+                    <div slot="callout-text">
+                        <div class="callout-content-wrapper">
+                            <div class="callout-content">
+                                For a limited time pay
+                                <span is="inline-price" data-display-old-price="true" data-display-per-unit="false" data-quantity="1" data-template="price" data-wcs-osi="Mutn1LYoGojkrcMdCLO7LQlx1FyTHw27ETsfLv0h8DQ" class="placeholder-failed"></span> when you add AI assistant to Acrobat Reader, Standard, or Pro. Ends 6/4.<a href="https://www.adobe.com/creativecloud/all-apps.html" daa-ll="Learn More-1--H4 Subtext H5 Promo Text" target="_blank">Learn More</a> </div>
+                            <img src="./img/info-icon.svg" title="this is a dummy tooltip text" class="callout-icon"/>
+                        </div>
                     </div>
                     <p>Lightroom, Lightroom Classic, Photoshop on desktop and iPad, and 1TB of cloud storage.</p>
                     <p><a href="https://adobe.com">Learn more</a></p>
@@ -892,14 +915,18 @@
                 </h3>
                 <div slot="body-xs">
                     <div slot="callout-text">
-                        <p>AI Assistant add-on available <img src="./img/info-icon.svg"/></p>
-                        <p>
-                            <span>
-                                For a limited time pay <span is="inline-price" data-display-per-unit="false"
-                                data-display-recurrence="true" data-display-tax="false" data-wcs-osi="puf"></span> when you add AI assistant to Acrobat Reader, Standard, or Pro. Ends 6/4.
-                            </span
-                            ><img src="./img/info-icon.svg"/>
-                        </p>
+                        <div class="callout-content-wrapper">
+                            <div class="callout-content">AI Assistant add-on available </div>
+                            <img src="./img/info-icon.svg" title="this is a dummy tooltip text" class="callout-icon"/>
+                        </div>
+                    </div>
+                    <div slot="callout-text">
+                        <div class="callout-content-wrapper">
+                            <div class="callout-content">
+                                For a limited time pay
+                                <span is="inline-price" data-display-old-price="true" data-display-per-unit="false" data-quantity="1" data-template="price" data-wcs-osi="Mutn1LYoGojkrcMdCLO7LQlx1FyTHw27ETsfLv0h8DQ" class="placeholder-failed"></span> when you add AI assistant to Acrobat Reader, Standard, or Pro. Ends 6/4.<a href="https://www.adobe.com/creativecloud/all-apps.html" daa-ll="Learn More-1--H4 Subtext H5 Promo Text" target="_blank">Learn More</a> </div>
+                            <img src="./img/info-icon.svg" title="this is a dummy tooltip text" class="callout-icon"/>
+                        </div>
                     </div>
                     <p>Lightroom, Lightroom Classic, Photoshop on desktop and iPad, and 1TB of cloud storage.</p>
                     <p><a href="https://adobe.com">Learn more</a></p>
@@ -922,14 +949,18 @@
                 <div slot="body-xs">
                     <p></p>
                     <div slot="callout-text">
-                        <p>AI Assistant add-on available <img src="./img/info-icon.svg"/></p>
-                        <p>
-                            <span>
-                                For a limited time pay <span is="inline-price" data-display-per-unit="false"
-                                data-display-recurrence="true" data-display-tax="false" data-wcs-osi="puf"></span> when you add AI assistant to Acrobat Reader, Standard, or Pro. Ends 6/4.
-                            </span
-                            ><img src="./img/info-icon.svg"/>
-                        </p>
+                        <div class="callout-content-wrapper">
+                            <div class="callout-content">AI Assistant add-on available </div>
+                            <img src="./img/info-icon.svg" title="this is a dummy tooltip text" class="callout-icon"/>
+                        </div>
+                    </div>
+                    <div slot="callout-text">
+                        <div class="callout-content-wrapper">
+                            <div class="callout-content">
+                                For a limited time pay
+                                <span is="inline-price" data-display-old-price="true" data-display-per-unit="false" data-quantity="1" data-template="price" data-wcs-osi="Mutn1LYoGojkrcMdCLO7LQlx1FyTHw27ETsfLv0h8DQ" class="placeholder-failed"></span> when you add AI assistant to Acrobat Reader, Standard, or Pro. Ends 6/4.<a href="https://www.adobe.com/creativecloud/all-apps.html" daa-ll="Learn More-1--H4 Subtext H5 Promo Text" target="_blank">Learn More</a> </div>
+                            <img src="./img/info-icon.svg" title="this is a dummy tooltip text" class="callout-icon"/>
+                        </div>
                     </div>
                     <p>Get 20+ creative apps including Photoshop, Illustrator, Premiere Pro, Acrobat Pro, and Adobe Express.
                         (Substance 3D apps are not included.)</p>
@@ -956,14 +987,18 @@
                         Acrobat Pro. (Substance 3D apps are not included.)</p>
                     <p>
                     <div slot="callout-text">
-                        <p>AI Assistant add-on available <img src="./img/info-icon.svg"/></p>
-                        <p>
-                            <span>
-                                For a limited time pay <span is="inline-price" data-display-per-unit="false"
-                                data-display-recurrence="true" data-display-tax="false" data-wcs-osi="puf"></span> when you add AI assistant to Acrobat Reader, Standard, or Pro. Ends 6/4.
-                            </span
-                            ><img src="./img/info-icon.svg"/>
-                        </p>
+                        <div class="callout-content-wrapper">
+                            <div class="callout-content">AI Assistant add-on available </div>
+                            <img src="./img/info-icon.svg" title="this is a dummy tooltip text" class="callout-icon"/>
+                        </div>
+                    </div>
+                    <div slot="callout-text">
+                        <div class="callout-content-wrapper">
+                            <div class="callout-content">
+                                For a limited time pay
+                                <span is="inline-price" data-display-old-price="true" data-display-per-unit="false" data-quantity="1" data-template="price" data-wcs-osi="Mutn1LYoGojkrcMdCLO7LQlx1FyTHw27ETsfLv0h8DQ" class="placeholder-failed"></span> when you add AI assistant to Acrobat Reader, Standard, or Pro. Ends 6/4.<a href="https://www.adobe.com/creativecloud/all-apps.html" daa-ll="Learn More-1--H4 Subtext H5 Promo Text" target="_blank">Learn More</a> </div>
+                            <img src="./img/info-icon.svg" title="this is a dummy tooltip text" class="callout-icon"/>
+                        </div>
                     </div>
                     <a href="https://adobe.com">See plans & pricing details</a></p>
                 </div>
@@ -985,14 +1020,18 @@
                 <div slot="body-xs">
                     <p>Lightroom, Lightroom Classic, Photoshop on desktop and iPad, and 1TB of cloud storage.</p>
                     <div slot="callout-text">
-                        <p>AI Assistant add-on available <img src="./img/info-icon.svg"/></p>
-                        <p>
-                            <span>
-                                For a limited time pay <span is="inline-price" data-display-per-unit="false"
-                                data-display-recurrence="true" data-display-tax="false" data-wcs-osi="puf"></span> when you add AI assistant to Acrobat Reader, Standard, or Pro. Ends 6/4.
-                            </span
-                            ><img src="./img/info-icon.svg"/>
-                        </p>
+                        <div class="callout-content-wrapper">
+                            <div class="callout-content">AI Assistant add-on available </div>
+                            <img src="./img/info-icon.svg" title="this is a dummy tooltip text" class="callout-icon"/>
+                        </div>
+                    </div>
+                    <div slot="callout-text">
+                        <div class="callout-content-wrapper">
+                            <div class="callout-content">
+                                For a limited time pay
+                                <span is="inline-price" data-display-old-price="true" data-display-per-unit="false" data-quantity="1" data-template="price" data-wcs-osi="Mutn1LYoGojkrcMdCLO7LQlx1FyTHw27ETsfLv0h8DQ" class="placeholder-failed"></span> when you add AI assistant to Acrobat Reader, Standard, or Pro. Ends 6/4.<a href="https://www.adobe.com/creativecloud/all-apps.html" daa-ll="Learn More-1--H4 Subtext H5 Promo Text" target="_blank">Learn More</a> </div>
+                            <img src="./img/info-icon.svg" title="this is a dummy tooltip text" class="callout-icon"/>
+                        </div>
                     </div>
                     <p><a href="https://adobe.com">Compare photography plans</a></p>
                     <p><a href="https://adobe.com">See plans & pricing details</a></p>
@@ -1015,14 +1054,18 @@
                 <div slot="body-xs">
                     <p>Lightroom, Lightroom Classic, Photoshop on desktop and iPad, and 1TB of cloud storage.</p>
                     <div slot="callout-text">
-                        <p>AI Assistant add-on available <img src="./img/info-icon.svg"/></p>
-                        <p>
-                            <span>
-                                For a limited time pay <span is="inline-price" data-display-per-unit="false"
-                                data-display-recurrence="true" data-display-tax="false" data-wcs-osi="puf"></span> when you add AI assistant to Acrobat Reader, Standard, or Pro. Ends 6/4.
-                            </span
-                            ><img src="./img/info-icon.svg"/>
-                        </p>
+                        <div class="callout-content-wrapper">
+                            <div class="callout-content">AI Assistant add-on available </div>
+                            <img src="./img/info-icon.svg" title="this is a dummy tooltip text" class="callout-icon"/>
+                        </div>
+                    </div>
+                    <div slot="callout-text">
+                        <div class="callout-content-wrapper">
+                            <div class="callout-content">
+                                For a limited time pay
+                                <span is="inline-price" data-display-old-price="true" data-display-per-unit="false" data-quantity="1" data-template="price" data-wcs-osi="Mutn1LYoGojkrcMdCLO7LQlx1FyTHw27ETsfLv0h8DQ" class="placeholder-failed"></span> when you add AI assistant to Acrobat Reader, Standard, or Pro. Ends 6/4.<a href="https://www.adobe.com/creativecloud/all-apps.html" daa-ll="Learn More-1--H4 Subtext H5 Promo Text" target="_blank">Learn More</a> </div>
+                            <img src="./img/info-icon.svg" title="this is a dummy tooltip text" class="callout-icon"/>
+                        </div>
                     </div>
                     <p><a href="https://adobe.com">Compare photography plans</a></p>
                     <p><a href="https://adobe.com">See plans & pricing details</a></p>
