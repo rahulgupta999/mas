@@ -127,7 +127,9 @@ styles.innerHTML = `
 
     --ellipsis-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><circle cx="2" cy="2" r="2" fill="%232c2c2c" transform="translate(6 6)"/><circle cx="2" cy="2" r="2" fill="%232c2c2c" data-name="Ellipse 71" transform="translate(12 6)"/><circle cx="2" cy="2" r="2" fill="%232c2c2c" transform="translate(0 6)"/></svg>');
 
-    --consonant-merch-card-callout-background-color: #CBCBCB;
+    /* callout */
+    --consonant-merch-card-callout-line-height: 21px;
+    --consonant-merch-card-callout-font-size: 14px;
 }
 
 merch-card-collection {
@@ -246,19 +248,15 @@ merch-card [slot='callout-text'] {
 .callout-content-wrapper {
     position: relative;
     display: inline-block;
-    background: var(--consonant-merch-card-callout-background-color) 0% 0% no-repeat padding-box;
+    background: rgba(203 203 203 / 50%) 0% 0% no-repeat padding-box;
     border-radius: 4px;
-    opacity: 0.5;
     padding: 4px 34px 4px 8px;
-    background: #CBCBCB 0% 0% no-repeat padding-box;
-    border-radius: 4px;
-    opacity: 0.5;
 }
 
 .callout-content {
-    display: inline;
+    display: inline-block;
     text-align: left;
-    font: normal normal normal 14px/21px Adobe Clean;
+    font: normal normal normal var(--consonant-merch-card-callout-font-size)/var(--consonant-merch-card-callout-line-height) Adobe Clean;
     letter-spacing: 0px;
     color: #2C2C2C;
     opacity: 1;
