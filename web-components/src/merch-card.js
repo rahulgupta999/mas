@@ -474,7 +474,6 @@ export class MerchCard extends LitElement {
             <slot name="heading-m-price"></slot>
             <slot name="body-xxs"></slot>
             <slot name="price-commitment"></slot>
-            <slot name="callout-text"></slot>
             <slot name="offers"></slot>
             <slot name="promo-text"></slot>
             ${this.miniCompareFooter}
