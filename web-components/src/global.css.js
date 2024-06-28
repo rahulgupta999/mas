@@ -253,8 +253,8 @@ merch-card [slot='callout-text'] {
 
 .callout-content-wrapper {
     position: relative;
-    display: inline-block;
-    background: rgba(203 203 203 / 50%) 0% 0% no-repeat padding-box;
+    display: inline-grid;
+    background: rgba(203 203 203 / 50%);
     border-radius: var(--consonant-merch-spacing-xxxs);
     padding: var(--consonant-merch-spacing-xxxs) var(--consonant-merch-card-callout-icon-padding) var(--consonant-merch-spacing-xxxs) var(--consonant-merch-spacing-xxs);
 }
