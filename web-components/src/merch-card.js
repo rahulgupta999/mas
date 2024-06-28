@@ -371,9 +371,9 @@ export class MerchCard extends LitElement {
                 <slot name="heading-m"></slot>
                 <slot name="body-xxs"></slot>
                 <slot name="promo-text"></slot>
-                <slot name="body-xs"></slot>                
+                <slot name="body-xs"></slot>    
+                <slot name="callout-text"></slot>            
                 ${this.stockCheckbox}
-                <slot name="callout-text"></slot>
             </div>
             <slot name="quantity-select"></slot>
             ${this.secureLabelFooter}`;
